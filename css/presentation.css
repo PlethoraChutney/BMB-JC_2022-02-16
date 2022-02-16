@@ -1,0 +1,130 @@
+thead th{
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.lowlight {
+    opacity: 25%;
+}
+
+p.fake-h2 {
+    font-family: 'Roboto Slab';
+    font-size: 3em;
+}
+
+div.fit-one, div.fit-two, div.fit-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    text-align:center;
+}
+
+.fit-two img, .fit-two video, .fit-two div {
+    max-width: 45%;
+    max-height: 40vh;
+    vertical-align: middle;
+}
+
+.fit-one img {
+    max-width: 100%;
+    max-height: 40vh;
+    vertical-align: middle;
+}
+
+.fit-one video {
+    max-width: 1000px;
+    max-height: 500px;
+    vertical-align: middle;
+}
+
+.fit-one iframe {
+    width: 820px;
+    height: 520px;
+}
+
+.fit-two > iframe {
+    width: 66%;
+    height: 100%;
+}
+
+.fit-three > img, .fit-three > div{
+    max-height: 100%;
+    max-width: 27%;
+    margin: 0 3%
+}
+
+.fit-three > div {
+    max-height: 100%;
+    max-width: 33%;
+}
+
+.stack-three > img {
+    height: 33%;
+    max-width: 100%;
+}
+
+div.read-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.read-text > p {
+    max-width: 50%;
+}
+
+img.bordered, video.bordered, iframe.bordered {
+  border: solid;
+  border-width: 2px;
+  padding: 0.5rem;
+  background-color: white;
+  margin: 5px;
+}
+
+div.im-cap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p.caption {
+    font-size: 12pt;
+}
+
+p.citation {
+    font-size: 8pt;
+    text-align: right;
+    width: max-content;
+    position: absolute;
+    right: 0;
+    background-color: #2f2f2f;
+    color: #e1e1e1;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+p.bottom-left {
+    line-height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+.reveal sub {
+    font-size: .5em;
+}
+
+.reveal pre {
+    max-width: none;
+    max-height: none;
+}
+
+.reveal pre code {
+    max-width: none;
+    max-height: none;
+}
